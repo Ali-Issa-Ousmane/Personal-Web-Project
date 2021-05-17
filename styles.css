@@ -1,39 +1,61 @@
-
 body {
-   font-family:"Arial Narrow";
- }
-  #navigationBar {
-
-   background-image: url("./Images/desert-1748462_1920.jpg");
-   box-shadow:0px 1px 10px 10px rgb(255, 255, 255);
-   height:auto;
-   text-align:left;
-   width:100%;
-   border-radius: 25px;
-   border: 3px solid rgb(46, 65, 208);
-
- 
- }
- #navigationBar > ul > li {
-   display:inline;
-
- }
- #navigationBar > ul > li > a
- {
-   color:#fff;
-   display:inline-block;
-   height:30px;
-   line-height:60px;
-   margin:0px;
-   padding:0px 15px;
-   text-decoration:none;
-   transition: color 0.3s ease-in;
-   animation: slideInLeft; 
-   animation-duration: 1s;
-   font-style: italic;
-
+  font-family: "Arial Narrow";
 }
+#navigationBar {
+  background-image: url("./Images/desert-1748462_1920.jpg");
+  box-shadow: 0px 1px 10px 10px rgb(255, 255, 255);
+  height: auto;
+  text-align: left;
+  width: 100%;
+  border-radius: 25px;
+  border: 3px solid rgb(46, 65, 208);
+}
+#navigationBar > ul > li {
+  display: inline;
+}
+#navigationBar > ul > li > a {
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 60px;
+  margin: 0px;
+  padding: 0px 15px;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+  animation: slideInLeft;
+  animation-duration: 1s;
+  font-style: italic;
+}
+
 #navigationBar > ul > li > a:hover {
-  color:#001157;
+  color: #001157;
 }
 
+.container {
+  margin-left: 450px;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+.done {
+  background: #51df70 !important;
+  color: #00891e;
+}
+
+.delete {
+  display: none;
+}
